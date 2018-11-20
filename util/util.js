@@ -12,4 +12,9 @@ function getDate(){
     var dateFormatted=date.toLocaleString();
     return dateFormatted;
 }
-module.exports={formatQueryData,getDate}
+function adminUserTypeId(){
+      var user_type_id=30101;
+      return user_type_id;
+}
+
+module.exports={formatQueryData,getDate,adminUserTypeId}

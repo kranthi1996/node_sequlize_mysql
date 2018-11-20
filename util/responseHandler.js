@@ -3,9 +3,9 @@ function responseSender(req,res,data,statuscode,message){
          res.status(statuscode).send({
                 data:data,
                 meta:{
-                    message:message,
+                     message:message,
                     statuscode:statuscode
                 }
             })
 };
-module.exports=responseSender
+module.exports=responseSender;

@@ -1,24 +1,52 @@
+
+
+
 {
   "development": {
-    "username": "bsdev",
-    "password": "bsDev_2018",
-    "database": "bsdev",
-    "host": "106.51.73.64",
-    "dialect": "mysql",
-    "operatorsAliases": "false"
+      "db": {
+          "mysql": {
+              "username": "DevelopElse",
+              "password": "developelse_2018",
+              "database": "developelse",
+              "host": "106.51.73.64",
+              "dialect": "mysql",
+              "operatorsAliases": "false"
+          }
+      },
+      "secrets":{
+          "session":"dsdf"
+      }
   },
   "test": {
-    "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+      "db": {
+          "mysql": {
+              "username": "DevelopElse",
+              "password": "developelse_2018",
+              "database": "developelse",
+              "host": "106.51.73.64",
+              "dialect": "mysql"
+          }
+      },
+      "secrets":{
+          "session":"dsdf"
+      }
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+      "db": {
+          "mysql": {
+              "username": "DevelopElse",
+              "password": "developelse_2018",
+              "database": "developelse",
+              "host": "106.51.73.64",
+              "dialect": "mysql"
+          }
+      },
+      "secrets":{
+          "session":"dsdf"
+      }
   }
 }
+
+
+
+
