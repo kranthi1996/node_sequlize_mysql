@@ -1,12 +1,12 @@
 
-var http = require('http');
+var https = require('https');
 
 
 function send(requestObj) {
   console.log(requestObj)
   switch (requestObj.method) {
         case 'GET':
-         http.get(requestObj.url,function(res){
+         https.get(requestObj.url,function(res){
           var body = "";
           res.on('data', function (data) {
           console.log('data came');

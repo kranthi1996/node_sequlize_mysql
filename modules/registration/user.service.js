@@ -7,3 +7,5 @@ async function adminRegistration(email_id,password){
     return await userDbAction.adminRegistration(email_id,password,user_type_id,dateCreated);
 };
 module.exports={adminRegistration};
+
+
